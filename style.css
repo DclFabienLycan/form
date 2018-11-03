@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#chiffre1 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    height: 8em;
+}
+
+#chiffre1 input {
+    font-size: 2.5em;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height: 2em;
+}
+
+#chiffre2 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    height: 8em;
+}
+
+#chiffre2 input {
+    font-size: 2.5em;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height: 2em;
+}
+
+select {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    height: 3em;
+    width: 10em;
+}
+
+button {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    height: 2em;
+    width: 8em;
+}
+
+#result {
+    margin: auto;
+}
+
+#result input {
+    font-size: 2.5em;
+    margin-top: 10%;
+    height: 2em;
+    width: 60%;
+}
