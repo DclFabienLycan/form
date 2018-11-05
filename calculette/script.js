@@ -3,8 +3,6 @@
 var nbr1 = document.getElementById("toto");
 // var nbr 2 = la saisie dans le cadre3;
 var nbr2 = document.getElementById("toto2");
-// var choix = opérateur de la liste select;
-// var choix = document.getElementById("selected");
 
 
 // addEventListener en click sur le bouton calculer;
