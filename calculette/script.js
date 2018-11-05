@@ -3,8 +3,6 @@
 var nbr1 = document.getElementById("toto");
 // var nbr 2 = la saisie dans le cadre3;
 var nbr2 = document.getElementById("toto2");
-// var choix = opérateur de la liste select;
-// var choix = document.getElementById("selected");
 
 
 // addEventListener en click sur le bouton calculer;
@@ -22,27 +20,27 @@ function () {
     // var choix opérateur;
     var calcul;
     // Si l'opérateur est +, alors on additionne nbr 1 et 2;
-    if (choix == "+") {
+    if (choix.value == "+") {
         calcul = nombre1Entré + nombre2Entré;
         console.log(calcul);
         console.log(choix);
-    } else if (choix == "*") {
+    } else if (choix.value == "*") {
         // Et si l'opérateur est *, alors on multiplie nbr1 et 2;
         calcul = nombre1Entré * nombre2Entré;
         console.log(calcul);
         console.log(choix);
-    } else if (choix == "-") {
+    } else if (choix.value == "-") {
         // Et si l'opérateur est -, alors on soustrait nbr 1 et 2;
         calcul = nombre1Entré - nombre2Entré;
         console.log(calcul);
         console.log(choix);
-    } else if (choix == "/") {
+    } else if (choix.value == "/") {
         // Et si l'opérateur est /, alors on divise nbr1 et 2;
         calcul = nombre1Entré / nombre2Entré;
         console.log(calcul);
         console.log(choix);
     }
-    calcul = parseInt(resultat.value);
-    console.log(calcul);
+    resultat.value= calcul;
+    console.log(resultat.value);
 }
 );
