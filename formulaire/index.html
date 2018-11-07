@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,28 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <form action="" name="contactForm" id="form">
-        <input type="text" name="name">nom<br>
-        <input type="text" name="firstname">prénom<br>
-        <input type="date" name="birthday">date de naissance<br>
-        <input type="radio" name="man">Homme<br>
-        <input type="radio" name="woman">Femme<br>
-        <input type="text" name="mail">
-        <textarea name="message" rows="20" cols="40">
+        Nom : <input type="text" name="name">
+        Prénom : <input type="text" name="firstname">
+        Date de naissance : <input type="date" name="birthday">
+        <div id="radio">
+            <input type="radio" id="homme" name="man">
+            <label for="homme"> Homme </label><br>
+            <input type="radio" id="femme" name="woman">
+            <label for="femme"> Femme </label>
+        </div>
+        E-mail : <input type="text" name="mail">
+        <div id="text">
+            <textarea name="message" rows="20" cols="40">
 
-        </textarea>
-        <input type="submit" name="envoyer">
+            </textarea>
+            <input type="submit" name="envoyer">
+        </div>
     </form>
 
     <script src="script.js"></script>
 </body>
+
 </html>
