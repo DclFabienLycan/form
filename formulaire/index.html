@@ -10,24 +10,26 @@
 </head>
 
 <body>
-    <form action="" name="contactForm" id="form">
-        Nom : <input type="text" name="name">
-        Prénom : <input type="text" name="firstname">
-        Date de naissance : <input type="date" name="birthday">
-        <div id="radio">
-            <input type="radio" id="homme" name="man">
-            <label for="homme"> Homme </label><br>
-            <input type="radio" id="femme" name="woman">
-            <label for="femme"> Femme </label>
-        </div>
-        E-mail : <input type="text" name="mail">
-        <div id="text">
-            <textarea name="message" rows="20" cols="40">
+    <main>
+        <form action="mail.php" name="contactForm" id="form" method="POST">
+            Nom : <input type="text" id="nom" name="name">
+            Prénom : <input type="text" id="prenom" name="firstname">
+            Date de naissance : <input type="date" id="ddn" name="birthday">
+            <div id="radio">
+                <input type="radio" id="homme" name="gendre" value="man">
+                <label for="homme"> Homme </label><br>
+                <input type="radio" id="femme" name="gendre" value="woman">
+                <label for="femme"> Femme </label>
+            </div>
+            E-mail : <input type="text" id="mail" name="mail">
+            <div id="text">
+                <textarea name="message" rows="20" cols="40">
 
             </textarea>
-            <input type="submit" name="envoyer">
-        </div>
-    </form>
+                <input type="submit" name="envoyer">
+            </div>
+        </form>
+    </main>
 
     <script src="script.js"></script>
 </body>
